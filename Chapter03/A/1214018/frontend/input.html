@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Form Input</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+      }
+
+      h1 {
+        text-align: center;
+        color: #444;
+        margin-top: 30px;
+      }
+
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: #000000;
+      }
+
+      input[type="text"], input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 2px 4px rgba(4, 0, 255, 0.1);
+      }
+
+      input[type="submit"],
+            [type="reset"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #00ff22;
+        color: #0008ff;
+        border: none;
+        border-radius: 5px;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover,
+      input[type="reset"]:hover {
+        background-color: #ff00c3;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <head>
+    <nav class="flex items-center justify-between flex-wrap bg-blue-500 p-6">
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <svg class="fill-current h-8 w-8 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M19.155 7.82c-.375-1.358-1.528-2.171-2.912-2.22L2.966 4.785c-1.545-.058-2.81 1.208-2.753 2.753l.307 8.385c.058 1.545 1.208 2.81 2.753 2.753l13.277-.453c1.384-.048 2.537-.861 2.912-2.219L20 9.373c.128-.458.128-.955 0-1.413l-.845-.14zM14.52 15.134l-9.477.322-.23-6.285c1.463-.413 2.946.429 3.325 1.836.38 1.407-.44 2.903-1.903 3.316l-2.294.781 9.179-.312.2 5.414zM15 8.732c-.62 0-1.125-.504-1.125-1.125s.504-1.125 1.125-1.125 1.125.504 1.125 1.125-.504 1.125-1.125 1.125z"/></svg>
+          <span class="font-semibold text-xl tracking-tight">Kemahasiswaan Konoha</span>
+      </div>
+      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+              <a href="input.html" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-200 mr-4">
+                  Input Data
+              </a>
+              <a href="nilai.html" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-200 mr-4">
+                  Nilai
+              </a>
+              <a href="jurusan.html" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-blue-200">
+                  Jurusan
+              </a>
+          </div>
+      </div>
+  </nav>
+  </head>
+  <body>
+    <h1>Form Input</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="npm">NPM:</label>
+      <input type="text" id="npm" name="npm" required>
+
+      <label for="alamat">Alamat:</label>
+      <input type="text" id="alamat" name="alamat" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>

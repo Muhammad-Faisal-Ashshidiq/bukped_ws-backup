@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Include tailwind CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+	<script src="gg.js"></script>
+</head>
+<body class="bg-gray-200">
+   <div class="fixed bottom-0 left-0 right-0 z-40 px-4 py-3 text-center text-white bg-gray-800">
+      Selamat Datang
+   </div>
+   <!-- This is an example component -->
+<div class="font-sans">
+           <div class="relative min-h-screen flex flex-col sm:justify-center items-center bg-gray-100 ">
+               <div class="relative sm:max-w-sm w-full">
+                   <div class="card bg-blue-400 shadow-lg  w-full h-full rounded-3xl absolute  transform -rotate-6"></div>
+                   <div class="card bg-red-400 shadow-lg  w-full h-full rounded-3xl absolute  transform rotate-6"></div>
+                   <div class="relative w-full rounded-3xl  px-6 py-4 bg-gray-100 shadow-md">   
+	<div class="flex flex-col items-center justify-center h-screen">
+		<h1 class="text-3xl font-bold mb-8">Sign Up Form</h1>
+		<form id="formsignup" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+			<div class="mb-4">
+				<label class="block text-gray-700 font-bold mb-2" for="namagoib">Nama Goib Anda</label>
+				<input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="namagoib" name="namagoib" required>
+			</div>
+         <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="namalastgoib">Nama Last Goib Anda</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" id="namalastgoib" name="namalastgoib" required>
+         </div>
+   
+         <div class="mb-4">
+            <label class="block text-gray-700 font-bold mb-2" for="emailgoib">Masukan Email Goib Anda</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="emailgoib" id="emailgoib" name="emailgoib" required>
+         </div>
+   
+         <div class="mb-6">
+            <label class="block text-gray-700 font-bold mb-2" for="passwordgoib">Password Goib Anda</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="password" id="passwordgoib" name="passwordgoib" required>
+         </div>
+         <div class="mb-6">
+            <label class="block text-gray-700 font-bold mb-2" for="nohandphone">Nomor Handphone</label>
+            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="nohandphone" id="nohandphone" name="passwordgoib" required>
+         </div>
+   
+   
+         <div class="flex items-center justify-center">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button" onclick="PushButton()">Sign Up</button>
+         </div>
+      </form>
+   
+      <div id="formsuccess" style="display:none;" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+         <h2 class="text-2xl font-bold mb-4">Thank You!</h2>
+         <p class="text-gray-700">Your sign-up request has been received.</p>
+      </div>
+   </div>
+   </body>
+   </html>

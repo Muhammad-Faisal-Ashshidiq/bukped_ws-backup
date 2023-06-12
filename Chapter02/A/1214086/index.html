@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://unpkg.com/tailwindcss@1.0.4/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body class="h-screen overflow-hidden flex items-center justify-center" style="background-color: rgb(135, 210, 250)">
+    <body class="font-mono bg-gray-400">
+      <!-- Container -->
+      <div class="container mx-auto">
+        <div class="flex justify-center px-6 my-12">
+          <!-- Row -->
+          <div class="w-full xl:w-3/4 lg:w-11/12 flex">
+            <!-- Col -->
+            <div class="w-full h-auto bg-gray-400 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg" style="background-image: url('https://source.unsplash.com/Mv9hjnEUHR4/600x800')"></div>
+            <!-- Col -->
+            <div id="formsignup" class="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
+              <h3 class="pt-4 text-2xl text-center">Create an Account!</h3>
+              <form class="px-8 pt-6 pb-8 mb-4 bg-white rounded">
+                <div class="flex flex-col mt-4">
+                  <input id="firstname" type="text" class="flex-grow h-8 px-2 border rounded border-grey-400" name="firstname" value="" placeholder="First Name" />
+                </div>
+                <div class="flex flex-col mt-4">
+                  <input id="lastname" type="text" class="flex-grow h-8 px-2 border rounded border-grey-400" name="lastname" value="" placeholder="Last Name" />
+                </div>
+                <div class="flex flex-col mt-4">
+                  <input id="email" type="text" class="flex-grow h-8 px-2 border rounded border-grey-400" name="email" value="" placeholder="Email" />
+                </div>
+                <div class="flex flex-col mt-4">
+                  <input id="password" type="password" class="flex-grow h-8 px-2 rounded border border-grey-400" name="password" value="" placeholder="Create Password" />
+                </div>
+                <div class="flex flex-col mt-4">
+                  <input id="confirm password" type="password" class="flex-grow h-8 px-2 rounded border border-grey-400" name="confirm password" value="" placeholder="Confirm Password" />
+                </div>
+                <div class="flex flex-col mt-8">
+                  <button type="submit" class="bg-blue-400 hover:bg-blue-600 text-white text-sm font-semibold py-2 px-4 rounded">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+    <script src="crot.js"></script>
+  </body>
+</html>

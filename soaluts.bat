@@ -1,0 +1,1 @@
+pandoc -o soaluts.docx -f markdown -t docx ./Chapter01/README.md ./Chapter02/README.md ./Chapter03/README.md ./Chapter04/README.md ./Chapter05/README.md ./Chapter06/README.md ./Chapter07/README.md
