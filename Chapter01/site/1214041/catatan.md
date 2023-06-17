@@ -12,7 +12,7 @@ image
 
 5. Isi dari script croot.js contoh :
   
-![crot](https://user-images.githubusercontent.com/56635757/219867105-fdae2852-3040-49ce-94ca-f1e3c5add03b.png
+![Chapter01-crotjs](https://github.com/sidiq200/bukped_ws-backup/assets/56635757/e5b58fb9-b2cc-4b6c-b75e-f4f8a0a3a88e)
 
 
 6. ketika sudah melkukan pembuatan script crot.js tahap selanjutnya yaitu buat tampilan
