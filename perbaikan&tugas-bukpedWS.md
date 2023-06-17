@@ -46,7 +46,8 @@ certificate MindLuster
 
 certificate Codecademy
 
-[coursera-certificaate.pdf](https://github.com/bukped/ws/files/11779279/coursera-certificaate.pdf)
+[codecademy-certificaate.pdf](https://github.com/Muhammad-Faisal-Ashshidiq/bukped_ws-backup/files/11779310/codecademy-certificaate.pdf)
+
 
 certificate Coursera akan menyusul
 
