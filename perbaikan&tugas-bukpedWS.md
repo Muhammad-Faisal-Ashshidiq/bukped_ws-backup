@@ -35,14 +35,17 @@ dari intruksi perlu 4 certificate, namun hasil pertama saya hanya menyertakan 2 
 
 
 certificate javascript
+
 ![certificate_Javascript](https://github.com/bukped/ws/assets/56635757/17f75a8c-f45b-4d4c-ab89-8608bacc2cce)
 
 
 certificate MindLuster
+
 ![certificate-MindLuster](https://github.com/bukped/ws/assets/56635757/e18f3f2b-61db-490b-a8b7-e7a99eabed7e)
 
 
 certificate Codecademy
+
 [coursera-certificaate.pdf](https://github.com/bukped/ws/files/11779279/coursera-certificaate.pdf)
 
 certificate Coursera akan menyusul
