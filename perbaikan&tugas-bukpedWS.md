@@ -1,5 +1,5 @@
 1-2A-1214041-Muhammad Faisal Ashshidiq-Perbaikan Chapter01
-perbaikannya yaitu karena tidak tercantum gambar pada script croot.js
+perbaikannya yaitu karena tidak tercantum gambar pada script croot.js dan kurang certificate 
 
 Menghubungkan situs dengan Public API
 1.Buat folder NPM di dalam folder site
@@ -27,6 +27,13 @@ image
 
 7. setelah mngerjakan tugas Publik API, lakukan pelatihan javascript dasar di platform Great Learning lalu dapatkan certificatenya
     ![certificate_JS](https://user-images.githubusercontent.com/56635757/219867248-2fba7dee-0a28-4081-9543-2220dd798a49.png)
+
+
+8. berikut certificate Javascript melalui Dari platform Google
+   ![certificate_google](https://github.com/Muhammad-Faisal-Ashshidiq/bukped_ws-backup/assets/56635757/94f31502-33e3-4aa0-b5d3-6ec264081449)
+
+   
+   
 
 2-2A-1214041-Muhammad Faisal Ashshidiq-Perbaikan Chapter02
 perbaikan pada Chapter02 tidak menyertakan link github page dan kurang bukti certificate, maka dari itu saya akan langsung memperbaikinya
